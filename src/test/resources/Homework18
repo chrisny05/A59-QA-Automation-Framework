@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="playSong">
+
+    <test name="playSong Test" preserve-order="false">
+        <classes>
+            <class name="LoginTests"/>
+            <class name="BaseTest"/>
+        </classes>
+    </test>
+</suite>
+
+@Test
+public class Homework18 extends BaseTest{
+
+public void playSong() throws InterruptedException {
+navigateToPage();
+enterEmail("chris.nguyen@testpro.io");
+enterPassword("BoAt9hC6");
+submit();
+
+WebElement searchField = driver.findElement(By.cssSelector("div [class='side player-controls']"));
+
+side player-controls.click
+
+Assert.assertEquals(extra.text-secondary.showing)
+
+driver.quit
+
+
+
+
+
+}
+
+
+}
